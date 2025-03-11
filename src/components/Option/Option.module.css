@@ -1,0 +1,25 @@
+.wrapper {
+  margin-bottom: 10px;
+
+  display: flex;
+  column-gap: 7px;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+
+  background-color: #000000;
+
+  color: aliceblue;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: background-color 250ms ease;
+}
+
+.btn:hover {
+  background-color: #7f7f7f;
+}

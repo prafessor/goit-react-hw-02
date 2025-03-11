@@ -1,0 +1,21 @@
+.wrapper {
+  width: 200px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.iconWrapper {
+  position: relative;
+}
+
+.item {
+  margin: 0;
+  padding: 3px 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:nth-child(even) {
+  background-color: #dfdfdf;
+}
