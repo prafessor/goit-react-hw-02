@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Description from "../Description/Description";
-import Option from "../Option/Option";
+import Options from "../Options/Options";
 import Notification from "../Notification/Notification";
 import Feedback from "../Feedback/Feedback";
 
@@ -45,7 +45,7 @@ export default function App() {
     <>
       <Description />
 
-      <Option onClick={handleClick} totalFeedback={totalFeedback} />
+      <Options onClick={handleClick} totalFeedback={totalFeedback} />
 
       {totalFeedback > 0 ? (
         <Feedback data={clicks} total={totalFeedback} />
